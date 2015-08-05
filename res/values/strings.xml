@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">GCMTest</string>
+    <string name="btn_id_hint">Click here to get id of your phone.</string>
+    <string name="btn_id_wait_id">Waiting for get Token from GCM server.\nCode will be shown here</string>
+    <string name="text_history_title">History\nCopy any history to Clipboard by click its button.</string>
+
+</resources>

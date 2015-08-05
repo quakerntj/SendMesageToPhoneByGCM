@@ -1,0 +1,9 @@
+Content-Type:application/json
+Authorization:key=AIzaSyD_e8YpgV0tv8geFIAK7YVCe2WfoBkOkUs
+{
+    "to" : "dnlWK55SUlI:APA91bEarSUWmgQf46FWVmbl3pd2lesZnmlT4BT_vy5vqh-GWCOZWUvvKfIg_UrN4pzxp9IUVfpC_omJSGSoBsl-HJXdstS2l0Gk5mNhGvLNDBot-dBigYX0h7Cx1chSBWXvhMUBY2_3",
+    "data" : {
+        "message" : "Hello world"
+    }
+}
+
