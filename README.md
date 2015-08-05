@@ -26,7 +26,6 @@ download it from https://skanthak.homepage.t-online.de/download/curl-7.43.0.cab.
 Put your own token inside tophone.sh or tophone.bat.  Replace the big case latters in a line as "token=PUT_YOUR_TOKEN_HERE".
 
 ## Use
-
 Send message by call
   tophone.sh "hello world"
 or
@@ -35,4 +34,8 @@ or
 Once GCMTest receive the message, it will copy to clipboard automatically.  
 If You send a url like http://xxx.xxx.xxx.  And GCMTest will help to open this linke with browser.
 
+## See the history list
+When you open GCMTest again, you will see a history list you ever send to this phone.  You can copy the message to clipboard by click the text button, or delete it by click X button.  The length of history list are restict to 20.
+
 ## further develop
+You can tell me if you need some new feature or want to fix some bug.
