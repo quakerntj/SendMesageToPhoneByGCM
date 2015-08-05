@@ -134,6 +134,10 @@ public class MainActivity extends Activity {
     			SharedPreferences sp = activity.getSharedPreferences("histories", MODE_PRIVATE);
     			mHistories = new LinkedList<Item>();
 				LinearLayout linearHistory = (LinearLayout) activity.findViewById(R.id.linearHistory);
+				View v = linearHistory.findViewById(R.id.textHistory);
+				linearHistory.removeAllViews();
+				linearHistory.addView(v);
+
     			for (int i = 0; i < 20; i++) {
     				String historyKey = "history" + i;
     				String historyString = sp.getString(historyKey, "");
