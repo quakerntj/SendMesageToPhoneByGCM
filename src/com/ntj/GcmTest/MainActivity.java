@@ -208,11 +208,11 @@ public class MainActivity extends Activity {
 		        if (!checkPlayServices())
 		        	return;
 				InstanceID iid = InstanceID.getInstance(context);
-				Log.i(TAG, "getId() = " + iid.getId());
+				// Log.i(TAG, "getId() = " + iid.getId());
 				String token = "";
 				try {
 					token = iid.getToken("506066863990", GoogleCloudMessaging.INSTANCE_ID_SCOPE);
-					Log.i(TAG, "getToken() = " + token);
+					// Log.i(TAG, "getToken() = " + token);
 				} catch (IOException e) {
 					e.printStackTrace();
 					return;
