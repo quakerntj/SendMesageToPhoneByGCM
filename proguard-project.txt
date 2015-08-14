@@ -19,6 +19,11 @@
 -keep class android.os.Message
 -keep class android.webkit.WebSettings
 -keep class android.widget.FrameLayout
+-keep class com.google.android.gms.common.SupportErrorDialogFragment
+-keep class com.google.android.gms.common.api.zzm
+-keep class com.google.android.gms.common.api.zzn
+-keep class com.google.android.gms.gcm.GcmReceiver
+
 
 -dontwarn android.content.pm.PackageInstaller
 -dontwarn android.content.pm.PackageInstaller$SessionInfo
@@ -27,6 +32,11 @@
 -dontwarn android.os.Message
 -dontwarn android.webkit.WebSettings
 -dontwarn android.widget.FrameLayout
+-dontwarn com.google.android.gms.common.SupportErrorDialogFragment
+-dontwarn com.google.android.gms.common.api.zzm
+-dontwarn com.google.android.gms.common.api.zzn
+-dontwarn com.google.android.gms.common.api.zzn$zza
+-dontwarn com.google.android.gms.gcm.GcmReceiver
 
 # proguard settings from google-play-services_lib
 -keep class * extends java.util.ListResourceBundle {
